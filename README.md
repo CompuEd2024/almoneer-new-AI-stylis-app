@@ -1,35 +1,20 @@
-# v0-premium-optical-web-app
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+# Run and deploy your AI Studio app
 
-## Built with v0
+This contains everything you need to run your app locally.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+View your app in AI Studio: https://ai.studio/apps/986a151c-c0b1-49ed-90e3-b582a01d94a7
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_1n1ybfuhxq5VvimTypHeqXF3oAkm)
+## Run Locally
 
-## Getting Started
+**Prerequisites:**  Node.js
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
-
-<a href="https://v0.app/chat/api/kiro/clone/CompuEd2024/v0-premium-optical-web-app" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
